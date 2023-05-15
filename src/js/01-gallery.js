@@ -30,9 +30,5 @@ let modalGallery = new SimpleLightbox('.gallery__link',
         showCounter: false,
     }
 );
-modalGallery.on('show.simplelightbox', () => {
-  galleryList.addEventListener('click', (e) => {
-    e.preventDefault();    
-  });
-});
+
 
