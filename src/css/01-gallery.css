@@ -12,6 +12,7 @@
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
+  list-style: none;
 }
 
 .gallery__item {
@@ -39,4 +40,14 @@
 
 .gallery__link:hover {
   cursor: zoom-in;
+}
+
+.sl-overlay {
+  background-color: black!important;
+}
+
+.sl-wrapper .sl-close,
+.sl-wrapper .sl-next,
+.sl-wrapper .sl-prev {
+  color: white!important;
 }
