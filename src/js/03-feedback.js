@@ -46,7 +46,7 @@ const checkboxDarkTheme = document.querySelector('#theme__dark');
 
 const theme = {
     light: "lightBlue",
-    dark: "blue"
+    dark: "#1B586B"
 }
 if (localStorage.getItem('theme') === null) {
     document.body.style.color = "black";

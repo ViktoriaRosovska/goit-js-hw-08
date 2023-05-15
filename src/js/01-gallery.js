@@ -26,7 +26,8 @@ let modalGallery = new SimpleLightbox('.gallery__link',
     {
         captionsData: 'alt',
         captionDelay: 250,
-        overlayOpacity: 0.8
+        overlayOpacity: 0.8,
+        showCounter: false,
     }
 );
 modalGallery.on('show.simplelightbox', () => {
