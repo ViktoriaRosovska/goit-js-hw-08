@@ -2,7 +2,7 @@
   "name": "goit-js-hw-08",
   "version": "2.0.0",
   "description": "This project was created with Parcel. For familiarization and setting additional features [refer to documentation](https://parceljs.org/).",
-  "homepage": "https://github.com/ViktoriaRosovska/goit-js-hw-08",
+  "homepage": "https://viktoriarosovska.github.io/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
